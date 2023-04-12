@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <h1>Created By <span> Vinay Kumar</span></h1>
+        <i class="fa fa-moon" id="icon"></i>
+    </div>
+    <!-- <i class="fa fa-sun"></i> -->
+    <div class="container">
+        <div class="row">
+            <input type="text" name="" id="input" class="input" readonly>
+        </div>
+        <div class="row">
+            <button class="button clr" onclick="allclear()">AC</button>
+            <button class="button" onclick="input('*0.01*')">%</button>
+            <button class="button" onclick="input('/')">/</button>
+            <button class="button del" onclick="Del()">
+                <i class="fa-solid fa-delete-left"></i>
+            </button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="input('7')">7</button>
+            <button class="button" onclick="input('8')">8</button>
+            <button class="button" onclick="input('9')">9</button>
+            <button class="button" onclick="input('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="input('4')">4</button>
+            <button class="button" onclick="input('5')">5</button>
+            <button class="button" onclick="input('6')">6</button>
+            <button class="button" onclick="input('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="input('1')">1</button>
+            <button class="button" onclick="input('2')">2</button>
+            <button class="button" onclick="input('3')">3</button>
+            <button class="button" onclick="input('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="input('0')">0</button>
+            <button class="button" onclick="input('00')">00</button>
+            <button class="button" onclick="input('.')">.</button>
+            <button class="button equal" onclick="equal()">=</button>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="javascript.js"></script>
+
+
+</body>
+
+</html>

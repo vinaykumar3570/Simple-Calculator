@@ -1,0 +1,123 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    color: red;
+}
+
+.container {
+    background: #e0e0e0;
+    padding: 20px 0;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+
+}
+
+.row {
+    margin: 5px 0;
+}
+
+.button {
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    cursor: pointer;
+    /* border-radius: 0px; */
+    border: none;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #bebebe,
+        -5px -5px 10px #ffffff;
+    font-size: 20px;
+    color: rgb(0, 0, 54);
+}
+
+.equal {
+    background: rgb(5, 233, 5);
+}
+
+.clr {
+    background: rgb(230, 149, 28);
+}
+
+.del {
+    color: rgb(0, 0, 54);
+}
+
+
+
+.input {
+    width: 200px;
+    padding: 20px 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #bebebe,
+        inset -5px -5px 10px #ffffff;
+    text-align: right;
+    cursor: default;
+}
+
+.dark {
+    background: rgb(28, 30, 43);
+    color: #fff;
+}
+
+.container-dark {
+    background: rgb(2, 3, 27);
+}
+
+.input-dark {
+    background: rgb(1, 4, 19);
+    box-shadow: 1px 1px 2px grey, inset 1px 1px 2px grey;
+    color: white;
+}
+
+.button-dark {
+    background: rgb(6, 7, 19);
+    color: #fff;
+    box-shadow: .5px .5px 1px grey, -.5px -.5px 1px grey;
+}
+
+i.fa-moon {
+    color: grey;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transform: scale(2);
+    cursor: pointer;
+}
+
+i.fa-sun {
+    color: rgb(255, 238, 0);
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transform: scale(2);
+    cursor: pointer;
+}
